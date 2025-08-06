@@ -1,0 +1,10 @@
+/*solid,double,inset,dashed,dotted,outset -> Border Properties */
+.b_prop2{
+    border: 6px dashed blue;
+    width: 250px;
+}
+
+.b_prop1{
+    border: 6px solid red;
+}
+

@@ -65,3 +65,19 @@ p{
 .line_height{
     line-height: 30px;
 }
+.t_shadow{
+    font-size: 200px;
+    text-align :center;
+    color: red;
+    text-shadow: 10px 4px blue;
+}
+
+.b_shadow{
+    box-shadow: 16px 16px 13px brown;
+    width: 250px;
+}
+
+.d_shadow{
+    width: 250px;
+    filter: drop-shadow(3px 5px 4px green);
+}

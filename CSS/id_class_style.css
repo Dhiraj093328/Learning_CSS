@@ -1,0 +1,20 @@
+.t_color{
+    color: blue;
+}
+
+.t_size{
+   font-size: 60px;
+}
+.t_bg{
+    background-color: brown;
+}
+.t_center{
+    text-align: center;
+}
+#t_color{
+    color: cyan;
+}
+
+#t_size{
+    font-size: 60px;
+}
