@@ -1,0 +1,50 @@
+.box_model1{
+    border: solid red;
+    padding: 30px;
+    margin: 60;
+}
+.box_model2{
+    border: double yellow;
+    padding: 50px 30px 50px 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+.b_prop2{
+    width: 300px;
+    border: double burlywood;
+    border-radius : 30px;
+    padding: 40px;
+    margin: 20px;
+
+}
+
+.b_prop3{
+    width: 300px;
+    border: double gold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.b_prop4{
+    width: 300px;
+    border : solid green;
+    padding : 60px 30px 60px 30px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.b_prop5{
+    width: 300px;
+    border: dotted orange;
+    border-radius: 70%;
+    padding : 60px 30px 60px 30px;
+    margin: 20px 0px 20px 0px;
+
+}
