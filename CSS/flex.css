@@ -1,0 +1,23 @@
+.flex-items{
+    color: azure;
+    background-color: blueviolet;
+    background-image: url(/images/2.jpg);
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+        display: flex;
+        border: solid red;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    font-size: 50px;
+}
+
+h1:hover{
+    color: blue;
+    background-color: brown;
+    font-size: 80px;
+}
+input:focus{
+    background-color: red;
+    color: gold;
+}
+a:visited{
+    color: chocolate;
+}
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+p::first-line{
+    color: green;
+}
+::selection{
+    color: brown;
+    background-color: burlywood;
+    
+}
