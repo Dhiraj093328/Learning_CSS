@@ -1,13 +1,97 @@
-.container{
+.container {
     display: flex;
     padding: 10px;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: 30px;
 }
-.box{
-    color: darkviolet;
+
+.box {
+    background-color: darkviolet;
     border: 3px solid black;
-    height: 150px;
+    color: azure;
+    height: 200px;
     width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: transform 5s ease; /* transition applies to transform changes */
+}
+
+.box1:hover {
+    transform: translate(125px, 125px);
+}
+
+.box2:hover {
+    transform: translateX(150px);
+}
+
+.box3:hover {
+    transform: translateY(150px);
+}
+.box4:hover{
+    transform: rotate(720deg);
+}
+.box5:hover{
+    transform: skewX(20deg);
+}
+.box6:hover{
+    transform: skewY(20deg);
+}
+.box7:hover{
+    transform: skew(20deg,20deg);
+}
+.box8:hover{
+    transform: scale(1.2);
+}
+.box9:hover{
+    transform: translateX(100px) rotate(90deg) scale(3);
+}
+.img-wrapper1{
+    width: 300px;
+    height: 250px;
+    border: 2px solid blue;
+    position: relative;
+    overflow: hidden;
+}
+.inner-img1:hover{
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+.img-wrapper2{
+    width: 300px;
+    height: 250px;
+    border: 2px solid blue;
+    position: relative;
+    overflow: hidden;
+}
+.inner-img2:hover{
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+.img-wrapper3{
+    width: 300px;
+    height: 250px;
+    border: 2px solid blue;
+    position: relative;
+    overflow: hidden;
+}
+.inner-img3:hover{
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+
+
+.inner-img1:hover{
+    transform: scale(1.5);
+}
+.inner-img2:hover{
+    transform: rotate(720deg);
+}
+.inner-img3:hover{
+    transform: translateX(100px) rotate(90deg) scale(3);
 }
