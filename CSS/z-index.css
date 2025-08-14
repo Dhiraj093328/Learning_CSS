@@ -1,0 +1,31 @@
+.z-container{
+    position: relative;
+    margin: 50px;
+}
+
+div {
+border-radius: 100px;
+width: 150px;
+height: 150px;
+position: absolute;
+color: white;
+text-align: center;
+font-size: 20px;
+border: 2px solid white;
+
+}
+.blue{
+    background-color: blue;
+    left: 60px;
+    z-index: 1;
+}
+.green{
+    background-color: green;
+    left: 120px;
+    z-index: 5;
+}
+.red{
+    background-color: red;
+    left: 180px;
+    z-index: 4;
+}

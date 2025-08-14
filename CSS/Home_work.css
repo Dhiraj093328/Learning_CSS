@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.box {
+    background-color: aqua;
+    border: 3px solid black;
+    color: azure;
+    height: 150px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: transform 5s ease; /* transition applies to transform changes */
+}
+.box1:hover{
+    transform: rotateY(180deg);
+}
